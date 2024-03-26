@@ -1,0 +1,29 @@
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333333; /* Màu xanh rêu */
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 36px;
+  color: #333333;
+}
+
+@media only screen and (max-width: 600px) {
+  .content h1 {
+    font-size: 24px;
+  }
+}
